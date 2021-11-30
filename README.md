@@ -1,1 +1,1 @@
-# mobile-automatisator-course!
+# mobile-automatisator-course
