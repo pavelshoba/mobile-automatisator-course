@@ -2,13 +2,9 @@ import org.junit.Test;
 
 public class MainClassTest extends MainClass {
     @Test
-    public void  testGetClassNumber() {
-        int class_number = this.getClassNumber();
+    public void testGetClassString() {
+        String class_string = this.getClassString();
 
-        if (class_number > 45) {
-            System.out.println("Метод возвращает число больше 45");
-        } else {
-            System.out.println("Метод вовращает число меньше 45");
-        }
+        System.out.println (class_string.contains("Hello") || class_string.contains("hello"));
     }
 }
