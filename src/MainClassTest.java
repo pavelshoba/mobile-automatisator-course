@@ -2,13 +2,13 @@ import org.junit.Test;
 
 public class MainClassTest extends MainClass {
     @Test
-    public void testGetLocalNumber() {
-        int a = this.getLocalNumber();
+    public void  testGetClassNumber() {
+        int class_number = this.getClassNumber();
 
-        if (a == 14) {
-            System.out.println("Метод возвращает нужно число");
+        if (class_number > 45) {
+            System.out.println("Метод возвращает число больше 45");
         } else {
-            System.out.println("Метод не вовращает нужное число");
+            System.out.println("Метод вовращает число меньше 45");
         }
     }
 }
