@@ -1,2 +1,11 @@
-package PACKAGE_NAME;public class MainClass {
+import org.junit.Test;
+
+public class MainClass
+{
+    public int getLocalNumber()
+    {
+        return 14;
+    }
 }
+
+
